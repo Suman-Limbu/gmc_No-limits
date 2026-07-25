@@ -307,17 +307,12 @@ export const LeftSidebar: React.FC<LeftSidebarProps> = ({
 
         {/* SECTION 1: SMART OCR MULTI-IMAGE UPLOAD CARD */}
         <div className="border border-zinc-300 rounded-lg p-3.5 bg-zinc-50/90 space-y-3 shadow-2xs">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 bg-zinc-900 text-white rounded flex items-center justify-center shadow-xs">
-                <FileSearch className="w-3.5 h-3.5" />
-              </div>
-              <span className="text-xs font-bold text-zinc-900 uppercase tracking-wider">
-                Smart Multi-Page OCR Scan
-              </span>
+          <div className="flex items-center space-x-2">
+            <div className="w-6 h-6 bg-zinc-900 text-white rounded flex items-center justify-center shadow-xs">
+              <FileSearch className="w-3.5 h-3.5" />
             </div>
-            <span className="text-[10px] bg-amber-100 text-amber-900 font-bold px-1.5 py-0.5 rounded border border-amber-200">
-              AI Vision
+            <span className="text-xs font-bold text-zinc-900 uppercase tracking-wider">
+              Smart Multi-Page OCR Scan
             </span>
           </div>
 

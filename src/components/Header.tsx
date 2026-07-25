@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="h-14 bg-white border-b border-zinc-200 px-4 flex items-center justify-between shrink-0 z-20 font-sans">
       {/* App Branding */}
       <div className="flex items-center space-x-3">
-        <div className="w-9 h-9 bg-zinc-900 text-white rounded-lg flex items-center justify-center shadow-xs border border-zinc-800">
+        <div className="w-9 h-9 bg-white text-zinc-900 rounded-lg flex items-center justify-center shadow-xs border border-zinc-200">
           <svg className="w-5 h-5 text-amber-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
             <polyline points="14 2 14 8 20 8" />
@@ -35,9 +35,6 @@ export const Header: React.FC<HeaderProps> = ({
         <div>
           <h1 className="text-base font-serif font-extrabold tracking-tight text-zinc-900 flex items-center gap-1.5 leading-none">
             <span>Smart Paper</span>
-            <span className="text-[9px] bg-amber-100 text-amber-900 font-sans font-bold px-1.5 py-0.5 rounded border border-amber-200 uppercase tracking-wide">
-              AI Studio
-            </span>
           </h1>
           <p className="text-[10px] text-zinc-500 font-medium mt-0.5">
             Exam Creator & Multi-Page OCR
